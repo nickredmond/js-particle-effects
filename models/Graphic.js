@@ -1,6 +1,9 @@
 var Graphic = function(stage){
   this.stage = stage;
   this.shape = new createjs.Shape();
+
+  this.xPosition = 0;
+  this.yPosition = 0;
 };
 
 Graphic.prototype.update = function(dt){

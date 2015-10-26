@@ -12,8 +12,6 @@ var Particle = function(lifeSpanSeconds, colors, radii, stage){
 
   this.xVelocity = 0;
   this.yVelocity = 0;
-  this.xPosition = 0;
-  this.yPosition = 0;
   this.xAcceleration = 0;
   this.yAcceleration = 0;
   this.age = 0;
